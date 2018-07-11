@@ -67,32 +67,46 @@
 
 	<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
 
-		<p>Created by Greg McKelvey &copy;
-			<script type="text/javascript">
-				document.write(new Date().getFullYear());
-			</script>
-		</p>
+    
+            <div id="copyright">
+                <p>Created by Greg McKelvey &copy;
+                    <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script>
+                </p>
+            </div>
 
-		<a href="https://twitter.com/Whyisbecause" target="_blank">
-			<i class="fab fa-twitter"></i>
-		</a>
-		<a href="https://www.facebook.com/whyisbecause" target="_blank">
-			<i class="fab fa-facebook-official"></i>
-		</a>
-		<a href="https://github.com/mckelveygreg" target="_blank">
-			<i class="fab fa-github" aria-hidden="true"></i>
-		</a>
-		<a href="https://www.freecodecamp.org/mckelveygreg" target="_blank">
-			<i class="fab fa-free-code-camp"></i>
-		</a>
-		<a href="https://codepen.io/mckelveygreg/" target="_blank">
-			<i class="fab fa-codepen"></i>
-		</a>
-		<a href="https://www.linkedin.com/in/greg-mckelvey-6b0125153/" target="_blank">
-			<i class="fab fa-linkedin"></i>
-		</a>
+            <div id="socMeds">
+                <a href="https://twitter.com/Whyisbecause" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/whyisbecause" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://github.com/mckelveygreg" target="_blank">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/mckelveygreg" target="_blank">
+                    <i class="fab fa-free-code-camp"></i>
+                </a>
+                <a href="https://codepen.io/mckelveygreg/" target="_blank">
+                    <i class="fab fa-codepen"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/greg-mckelvey-6b0125153/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
 
-	</footer>
+            <div id="viewSource">
+                <p>View
+                    <a id="sourceURL">Source Code</a> on GitHub!</p>
+                <script type="text/javascript">var sourceURL = "https://github.com/mckelveygreg" + window.location.pathname;
+                    var sourceA = document.querySelector('#sourceURL');
+                    sourceA.setAttribute('href', sourceURL);
+                </script>
+            </div>
+
+        </footer>
 </body>
 
 </html>
