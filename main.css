@@ -48,3 +48,23 @@
     text-align: center;
     padding: 15px;
 }
+
+#project-grid {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#project-grid a {
+    border: solid #555; 
+    margin: 10px;
+}
+
+#project-grid img {
+    max-width: 400px;
+}
+
+#project-grid h3 {
+    background: #aaa;
+}
