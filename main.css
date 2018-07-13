@@ -13,7 +13,6 @@
 html {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    background: #F6F6F6;
     
 }
 
@@ -51,7 +50,7 @@ html {
     text-align: center;
     background: linear-gradient(rgba(252, 75, 26, 0.475), 
     rgba(168, 252, 26, 0.475)), 
-    url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Eugene_Oregon_from_Skinner_Butte.JPG/800px-Eugene_Oregon_from_Skinner_Butte.JPG);
+    url('tree_background.png');
     background-size: cover;
 }
 
@@ -63,6 +62,7 @@ html {
     position: sticky;
     top: 0;
     z-index: 10;
+    margin: 30px 0;;
 }
 
 #project-grid {
@@ -74,8 +74,7 @@ html {
 
 #project-grid a {
     border: solid #555; 
-    margin: 10px;
-    border-radius: 10px;
+    margin: 30px;
     text-decoration: none;
     color: black;
     transition: ease-out 0.1s;
@@ -88,11 +87,10 @@ html {
 
 #project-grid img {
     max-width: 400px;
-    border-radius: 10px;
 }
 
 #project-grid h3 {
-    background: linear-gradient(to right top, #49c5b6, #00000000);
+    background: linear-gradient(to right top, rgb(243, 120, 63), #00000000);
     padding: 5px;
     
 }
