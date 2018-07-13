@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,20 +9,21 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k"
-    crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG"
-    crossorigin="anonymous">
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG"
+        crossorigin="anonymous">
 
-
+    <link href="https://fonts.googleapis.com/css?family=Gaegu|Josefin+Sans|Montserrat" rel="stylesheet">
 </head>
+
 <body>
     <main id="main">
         <nav id="navbar">
-            
-                <a href="#welcome-section">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-        
+
+            <a href="#welcome-section">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+
         </nav>
 
         <section id="welcome-section">
@@ -34,42 +36,50 @@
                 <h2>Projects</h2>
             </div>
             <div id="project-grid">
-                <a href="https://mckelveygreg.github.io/TributePage/">
+                <a class='project-tile' href="https://mckelveygreg.github.io/TributePage/">
+                    <p>My very first web design project using HTML and CSS</p>
                     <img src="project-screenshots/tribute.jpg" alt="Tribute Page">
                     <h3>Tribute Page</h3>
                 </a>
 
                 <a href="https://mckelveygreg.github.io/lunch-survey">
+                    <p>Use of forms and HTML5 form validation</p>
                     <img src="project-screenshots/lunch-survey.jpg" alt="Lunch Survey">
                     <h3>Lunch Survey</h3>
                 </a>
 
                 <a href="https://mckelveygreg.github.io/product-landing-page/">
+                    <p>Responsive Web Design</p>
                     <img src="project-screenshots/product-landing.jpg" alt="Product Landing Page">
                     <h3>Product Landing Page</h3>
                 </a>
 
                 <a href="https://mckelveygreg.github.io/personal-technical-documentation/">
+                    <p>JavaScript DOM manipulation</p>
                     <img src="project-screenshots/tech-documentation.jpg" alt="Technical Documentation">
                     <h3>Technical Documentation Page</h3>
                 </a>
 
                 <a href="https://mckelveygreg.github.io/JS-Calculator/">
+                    <p>CSS Grid and use of other JavaScript libraries</p>
                     <img src="project-screenshots/js-calculator.jpg" alt="javascript calculator">
                     <h3>JavaScript Calculator</h3>
                 </a>
 
                 <a href="https://mckelveygreg.github.io/Pomodoro-Timer/">
+                    <p>JavaScript Time</p>
                     <img src="project-screenshots/pomodoro-clock.jpg" alt="Pomodoro-Timer">
                     <h3>Pomodoro Timer</h3>
                 </a>
 
                 <a href="https://mckelveygreg.github.io/SimonGame/">
+                    <p>Drawing with CSS and JavaScript Arrays</p>
                     <img src="project-screenshots/Simon-game.jpg" alt="Simon Game">
                     <h3>Simon Game</h3>
                 </a>
 
                 <a href="https://github.com/mckelveygreg/Gregs-100DaysOfCode/blob/master/log.md">
+                    <p>See my GitHub and FreeCodeCamp profiles for a look at my latest activity!</p>
                     <img src="project-screenshots/100-days-of-code.jpg" alt="100 Days of Code">
                     <h3>100 Days of Code Log</h3>
                 </a>
@@ -77,8 +87,21 @@
 
         </section>
 
-        <section id="about"></section>
-        
+        <section id="about">
+            <div class="banner">
+                <h2>My Story</h2>
+            </div>
+            <div id="aboutText">
+                <p>I've been interested in technology all of my life. From hacking together gaming networks in high school to teaching
+                    computers high school, working with and learning about tech has always been close at hand.</p>
+                <p>I found
+                    <a href="https://freecodecamp.org" target="_blank">FreeCodeCamp</a> on
+                    <a href="https://www.freecodecamp.org/mckelveygreg" target="_blank">January 1, 2018</a> and started coding in all of my free time.</p>
+                <p>I have decided to change careers from teaching high school to web development. I am on a mission to learn, improve,
+                    and fix all I can that surrounds me!</p>
+            </div id="aboutText">
+        </section>
+
         <footer>
             <div id="copyright">
                 <p>Created by Greg McKelvey &copy;
@@ -124,4 +147,5 @@
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>
