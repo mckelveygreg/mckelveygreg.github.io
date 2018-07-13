@@ -171,7 +171,7 @@ footer a:hover, #aboutText a:hover {
     }
 }
 
-@media (hover: none) {
+@media (pointer: coarse) {
     #mobileText {
         opacity: 1;
         z-index: 12;
