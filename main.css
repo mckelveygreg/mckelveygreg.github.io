@@ -145,6 +145,18 @@ footer a:hover, #aboutText a:hover {
     text-decoration: underline;
 }
 
+#mobileText {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    background: #00000065;
+    width: 100%;
+    height: 100%;
+}
+
 @media screen and (max-width: 700px) {
     #project-grid img {
         max-width: 100%;
@@ -158,5 +170,16 @@ footer a:hover, #aboutText a:hover {
         font-size: .75em;
         justify-content: space-between;
         padding: 0;
+    }
+}
+
+@media (hover: none) {
+    #mobileText {
+        opacity: 1;
+        z-index: 12;
+    }
+
+    #mobileText:target {
+        opacity: 0;
     }
 }
