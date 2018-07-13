@@ -1,4 +1,4 @@
-unused {
+.unused {
     font-family: 'Gaegu', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
@@ -41,7 +41,7 @@ html {
     transition: ease-out 0.1s;
 }
 
-#navbar a:hover {
+#navbar a:hover, #navbar a:active {
     background-color: #aaaaaa90;
 }
 
@@ -82,7 +82,7 @@ html {
     position: relative;
 }
 
-#project-grid a:hover {
+#project-grid a:hover, .hoverontouch--aktiv a {
     box-shadow: 0 0 10px 10px #aaaaaa90;
 }
 
@@ -111,7 +111,7 @@ html {
     transition: ease-out 0.1s;
 }
 
-#project-grid a p:hover {
+#project-grid a p:hover, .hoverontouch--aktiv p {
     opacity: 1;
     background: #00000065;
 }
