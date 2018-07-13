@@ -81,7 +81,7 @@ html {
     position: relative;
 }
 
-#project-grid a:hover, .hoverontouch--aktiv a {
+#project-grid a:hover, a.swiped {
     box-shadow: 0 0 10px 10px #aaaaaa90;
 }
 
@@ -109,7 +109,7 @@ html {
     transition: ease-out 0.1s;
 }
 
-#project-grid a p:hover, .hoverontouch--aktiv p {
+#project-grid a p:hover, #project-grid p.swiped {
     opacity: 1;
     background: #00000065;
 }
