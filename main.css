@@ -160,8 +160,10 @@ footer a:hover, #aboutText a:hover {
         max-width: 100%;
     }    
     #project-grid a {
-        max-width: 175px;
+        max-width: 150px;
         font-size: .75em;
+        margin: 10px;
+
     }
 
     footer {
