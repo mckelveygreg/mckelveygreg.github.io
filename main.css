@@ -65,14 +65,14 @@ html {
     margin: 30px 0;;
 }
 
-#project-grid {
+.project-grid {
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
     text-align: center;
 }
 
-#project-grid a {
+.project-grid a {
     border: solid #555; 
     margin: 30px;
     text-decoration: none;
@@ -81,21 +81,21 @@ html {
     position: relative;
 }
 
-#project-grid a:hover, a.swiped {
+.project-grid a:hover, a.swiped {
     box-shadow: 0 0 10px 10px #aaaaaa90;
 }
 
-#project-grid img {
+.project-grid img {
     max-width: 400px;
 }
 
-#project-grid h3 {
+.project-grid h3 {
     background: linear-gradient(to right top, rgb(243, 120, 63), #00000000);
     padding: 5px;
     
 }
 
-#project-grid a p {
+.project-grid a p {
     position: absolute;
     top: 0px;
     left: 0;
@@ -109,7 +109,7 @@ html {
     transition: ease-out 0.1s;
 }
 
-#project-grid a p:hover, #project-grid p.swiped {
+.project-grid a p:hover, .project-grid p.swiped {
     opacity: 1;
     background: #00000065;
 }
@@ -156,10 +156,10 @@ footer a:hover, #aboutText a:hover {
 }
 
 @media screen and (max-width: 700px) {
-    #project-grid img {
+    .project-grid img {
         max-width: 100%;
     }    
-    #project-grid a {
+    .project-grid a {
         max-width: 150px;
         font-size: .75em;
         margin: 10px;
