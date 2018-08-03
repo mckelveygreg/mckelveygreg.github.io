@@ -79,6 +79,9 @@ html {
     color: black;
     transition: ease-out 0.1s;
     position: relative;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-grid a:hover, a.swiped {
@@ -86,13 +89,14 @@ html {
 }
 
 .project-grid img {
-    max-width: 400px;
+    max-width: 320px;
 }
 
 .project-grid h3 {
     background: linear-gradient(to right top, rgb(243, 120, 63), #00000000);
     padding: 5px;
-    
+    background-size: cover;
+    height: 100%;
 }
 
 .project-grid a p {
