@@ -70,7 +70,14 @@ html {
     flex-flow: wrap;
     justify-content: space-around;
     text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
+/* article {
+    background: blue;
+    display: flex;
+} */
 
 .project-grid a {
     border: solid #555; 
