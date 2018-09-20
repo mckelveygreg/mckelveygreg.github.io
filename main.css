@@ -72,12 +72,16 @@ html {
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
+    flex-direction: row;
 }
 
-/* article {
-    background: blue;
+.project-grid article {
     display: flex;
-} */
+    flex-wrap: wrap;
+}
+.project-grid article h2 {
+    flex: 100%;
+}
 
 .project-grid a {
     border: solid #555; 
@@ -89,6 +93,7 @@ html {
     max-width: 320px;
     display: flex;
     flex-direction: column;
+    grid-area: card;
 }
 
 .project-grid a:hover, a.swiped {
