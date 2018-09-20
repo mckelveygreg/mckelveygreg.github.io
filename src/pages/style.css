@@ -1,0 +1,11 @@
+#landingPage {
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(rgba(252, 75, 26, 0.475), 
+  rgba(168, 252, 26, 0.475)), 
+  url(../images/tree_background.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

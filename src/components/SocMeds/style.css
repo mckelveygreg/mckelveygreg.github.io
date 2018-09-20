@@ -1,0 +1,13 @@
+.socMeds {
+  display: flex;
+  justify-content: center;
+}
+.socMeds a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+.socMeds svg {
+  font-size: 4rem;
+}
