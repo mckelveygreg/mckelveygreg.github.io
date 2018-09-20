@@ -1,0 +1,10 @@
+.banner {
+  width: 100%;
+  background: rgba(252, 75, 26, 1);
+  text-align: center;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  margin: 30px 0;;
+}

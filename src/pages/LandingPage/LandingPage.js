@@ -1,5 +1,5 @@
 import React from "react";
-import SocMeds from '../components/SocMeds/SocMeds';
+import SocMeds from '../../components/SocMeds/SocMeds';
 import "./style.css";
 
 const LandingPage = props => {

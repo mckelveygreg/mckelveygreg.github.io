@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import LandingPage from './pages/LandingPage';
+import LandingPage from './pages/LandingPage/LandingPage';
 import Navbar from './components/Navbar/Navbar';
-
+import AboutPage from './pages/AboutPage/AboutPage';
 
 class App extends Component {
   render() {
@@ -10,8 +10,8 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <LandingPage />
-        {/* <AboutPage />
-        <ProjectsPage />
+        <AboutPage />
+        {/* <ProjectsPage />
         <CertificationsPage />
         <Footer /> */}
       </div>
