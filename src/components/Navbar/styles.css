@@ -16,3 +16,7 @@
   padding: 20px;
   transition: ease-out 0.1s;
 }
+
+#navbar a:hover, #havbar a:active {
+  background-color: #ffffff79;
+}
