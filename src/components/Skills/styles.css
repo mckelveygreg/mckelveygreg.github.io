@@ -1,0 +1,16 @@
+.skill {
+    border: solid #555; 
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    transition: ease-out 0.1s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    padding: 15px 10px;
+}
+
+.skill img {
+  max-width: 100%;
+}

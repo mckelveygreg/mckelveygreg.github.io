@@ -3,7 +3,7 @@ import './App.css';
 import LandingPage from './pages/LandingPage/LandingPage';
 import Navbar from './components/Navbar/Navbar';
 import AboutPage from './pages/AboutPage/AboutPage';
-
+import ProjectsPage from './pages/ProjectsPage';
 class App extends Component {
   render() {
     return (
@@ -11,8 +11,8 @@ class App extends Component {
         <Navbar />
         <LandingPage />
         <AboutPage />
-        {/* <ProjectsPage />
-        <CertificationsPage />
+        <ProjectsPage />
+        {/* <CertificationsPage />
         <Footer /> */}
       </div>
     );

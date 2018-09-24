@@ -1,10 +1,12 @@
 import React from 'react';
 import './styles.css';
 
-export default (props) => {
+const Banner = (props) => {
   return (
     <div className="banner">
       <h2>{props.banner}</h2>
     </div>
   )
 }
+
+export default Banner;

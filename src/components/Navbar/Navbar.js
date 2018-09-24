@@ -1,7 +1,7 @@
 import React from "react";
 import './styles.css';
 
-export default () => {
+const Navbar = () => {
   return (
     <nav id="navbar">
       <a href="#landingPage">Home</a>
@@ -11,3 +11,5 @@ export default () => {
     </nav>
   );
 };
+
+export default Navbar;
