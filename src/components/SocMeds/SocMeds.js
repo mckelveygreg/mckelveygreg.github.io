@@ -10,7 +10,7 @@ import {
 
 import "./style.css";
 
-export default () => {
+const SocMeds = () => {
   return (
     <div className="socMeds">
       <a href="https://github.com/mckelveygreg" target="_blank" rel="noopener noreferrer">
@@ -31,3 +31,5 @@ export default () => {
     </div>
   );
 };
+
+export default SocMeds;

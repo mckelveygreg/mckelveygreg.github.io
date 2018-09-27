@@ -2,9 +2,9 @@ import React from "react";
 import "./styles.css";
 
 const Skills = props => {
-  const content = props.content.map(project => {
+  const content = props.content.map((project, i) => {
     return (
-      <div className="skill">
+      <div className="skill" key={i}>
         <a href={project.link} target="_blank" rel="noopener noreferrer">
           <h3>{project.title}</h3>
           <img src={project.img} alt={project.alt} />

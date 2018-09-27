@@ -20,3 +20,16 @@
 #navbar a:hover, #havbar a:active {
   background-color: #ffffff79;
 }
+
+@media only screen and (max-width: 550px) {
+  #navbar {
+    display: grid;
+    grid-template: auto auto / auto auto;
+  }
+
+  #navbar a {
+    padding: 3px;
+
+  }
+}
+

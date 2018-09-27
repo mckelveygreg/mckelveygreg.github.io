@@ -6,3 +6,13 @@
 #aboutPage p {
   padding: 10px;
 }
+
+#aboutText a {
+  text-decoration: none;
+  color: rgb(160, 43, 11);
+  transition: ease-out 0.1s;
+}
+
+#aboutText a:hover {
+  text-decoration: underline;
+}
