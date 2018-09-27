@@ -16,7 +16,7 @@ const AboutPage = () => {
           </p>
           <br />
           <p>
-            I found
+            I found {' '}
             <a
               href="https://freecodecamp.org"
               target="_blank"
@@ -24,7 +24,7 @@ const AboutPage = () => {
             >
               FreeCodeCamp
             </a>{" "}
-            on
+            on {' '}
             <a
               href="https://www.freecodecamp.org/mckelveygreg"
               target="_blank"
